@@ -10,6 +10,9 @@ Overall the developer experierience was great. I really liked the quick start gu
 
 One thing that caught me off guard was how long the Task API took to return results. When I went back to the docs home page, I saw the "5s-30m" tag on the Task API card which I assume is the response time but I didn't notice/understand it initialy.
 
+The `processor` field was set to "core" by default in the code sample I used, but the "core" processor is not documented here:
+https://docs.parallel.ai/search-api/processors
+
 I noticed the API itself didn't return accurate/consistent output sometimes. With the sample code to get the founding_date of United Nations, I had one case where it returned an empty string.
 
 Sometimes the API citations were not valid links. Example: https://www.google.com/shopping/product/1980258208853190855?q=iPhone+16+Pro+Max+official+product+page+and+pricing&gl=us&hl=en&udm=28&sei=4tHyaKXKDKKG5OUPhp8I&gl=US

@@ -34,7 +34,7 @@ def main():
             "json_schema":ProductOutput.model_json_schema()
           }
         },
-        processor="core"
+        processor="base"
     )
     print(f"Running Parallel task with run ID: {task_run.run_id}")
 
