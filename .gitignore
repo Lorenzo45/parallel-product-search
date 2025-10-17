@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+
+# Editor settings
+.DS_Store
+.idea/
+.vscode/
